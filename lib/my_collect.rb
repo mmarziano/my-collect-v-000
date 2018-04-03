@@ -10,6 +10,6 @@ def my_collect(collection)
   new_collection
 end
 
-my_collect(new_collection) do |x|
+my_collect(collection) do |x|
   return x 
 end
